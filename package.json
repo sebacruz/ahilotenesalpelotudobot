@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "micro",
+    "start": "micro -p ${PORT:-3000}",
     "run-bot": "node bot.js"
   },
   "repository": {
