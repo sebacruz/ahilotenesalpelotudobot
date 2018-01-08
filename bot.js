@@ -14,7 +14,11 @@ const reddit = new Snoowrap({
 
 reddit.config({ debug: true });
 
-const client = new Client();
+const client = new Client({
+  connectionString: process.env.DATABASE_URL,
+  ssl: true,
+});
+
 client.connect();
 
 const VIDEO_URL = 'https://www.youtube.com/watch?v=sRJxOfSO_Lc';
