@@ -42,8 +42,6 @@ const processComments = comments => {
         .then(() => {});
     }
   }
-
-  process.exit();
 };
 
 const getComments = (after = null) => {
@@ -66,7 +64,7 @@ client.query('SELECT * FROM replies ORDER BY replied_at DESC LIMIT 1')
     let afterOf = null;
 
     if (result.rowCount) {
-      afterOf = result.rows[0].comment_id;
+      afterOf = result.rows[0].link_id;
     }
 
     getComments(afterOf);
