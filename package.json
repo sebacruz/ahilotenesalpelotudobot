@@ -1,0 +1,32 @@
+{
+  "name": "ahilotenesalpelotudobot",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "9.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "micro",
+    "run-bot": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebacruz/ahilotenesalpelotudobot.git"
+  },
+  "keywords": [
+    "reddit",
+    "bot"
+  ],
+  "author": "Sebastian Cruz <cruzjesussebastian@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebacruz/ahilotenesalpelotudobot/issues"
+  },
+  "homepage": "https://github.com/sebacruz/ahilotenesalpelotudobot#readme",
+  "dependencies": {
+    "micro": "^9.0.2",
+    "snoowrap": "^1.15.2"
+  }
+}
