@@ -55,3 +55,5 @@ comments.on('comment', comment => {
     replyToComment(comment);
   }
 });
+
+module.exports = () => 'Ahi lo tenes al pelotudo!';
