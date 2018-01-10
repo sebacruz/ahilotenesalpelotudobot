@@ -8,8 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "micro -p ${PORT:-3000}",
-    "reply-comments": "node bot.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -28,6 +27,7 @@
   "dependencies": {
     "micro": "^9.0.2",
     "pg": "^7.4.1",
+    "snoostorm": "0.0.5",
     "snoowrap": "^1.15.2"
   }
 }
