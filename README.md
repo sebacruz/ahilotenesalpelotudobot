@@ -6,6 +6,8 @@ It was inspired by a [comment from /u/Shucito on some /r/argentina thread](https
 
 ## Running the bot
 
+Set your credentials on the `.env` file (use `.env.dist` as an example) and run:
+
 ```shell
 $ npm install
 $ npm run bot
