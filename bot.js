@@ -52,12 +52,6 @@ const replyToComment = comment => {
 comments.on('comment', comment => {
   const body = removeAccents(comment.body.toLowerCase());
 
-  console.log({
-    body,
-    match: body.includes(SEARCH_STRING),
-    author: comment.author.name
-  });
-
   if (body.includes(SEARCH_STRING) && comment.author.name !== 'AhiLoTenesAlPelotudo') {
     replyToComment(comment);
   }
