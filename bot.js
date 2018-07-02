@@ -4,6 +4,7 @@ const path = require('path');
 const Snoowrap = require('snoowrap');
 const Snoostorm = require('snoostorm');
 const { Client } = require('pg');
+const removeAccents = require('remove-accents');
 
 const pkg = require(path.resolve(__dirname, 'package.json'));
 
@@ -49,9 +50,9 @@ const replyToComment = comment => {
 }
 
 comments.on('comment', comment => {
-  const body = comment.body.toLowerCase();
+  const body = removeAccents(comment.body.toLowerCase());
 
-  if (body.includes(SEARCH_STRING)) {
+  if (body.includes(SEARCH_STRING) && comment.author.name !== 'AhiLoTenesAlPelotudo') {
     replyToComment(comment);
   }
 });
