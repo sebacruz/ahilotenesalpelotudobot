@@ -1,6 +1,6 @@
 # Changelog
 
-## <small>0.0.1 (2018-06-08)</small>
+## <small>1.0.0 (2018-06-08)</small>
 
 * chore: Make the repo commitizen-friendly ([4b4b9f1](https://github.com/sebacruz/ahilotenesalpelotudobot/commit/4b4b9f1))
 * Add default export to index ([665db80](https://github.com/sebacruz/ahilotenesalpelotudobot/commit/665db80))
