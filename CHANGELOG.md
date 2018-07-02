@@ -1,5 +1,14 @@
 # Changelog
 
+<a name="1.0.1"></a>
+## [1.0.1](https://github.com/sebacruz/ahilotenesalpelotudobot/compare/v1.0.0...v1.0.1) (2018-07-02)
+
+
+### Bug Fixes
+
+* **bot:** Update search to match strings with latin characters ([03e5851](https://github.com/sebacruz/ahilotenesalpelotudobot/commit/03e5851))
+* Update deps to fix `npm audit` warnings ([001c177](https://github.com/sebacruz/ahilotenesalpelotudobot/commit/001c177))
+
 ## <small>1.0.0 (2018-06-08)</small>
 
 * chore: Make the repo commitizen-friendly ([4b4b9f1](https://github.com/sebacruz/ahilotenesalpelotudobot/commit/4b4b9f1))
