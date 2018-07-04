@@ -10,7 +10,7 @@ const pkg = require(path.resolve(__dirname, 'package.json'));
 
 const SEARCH_STRING = 'ahi lo tenes al pelotudo';
 const VIDEO_URL = 'https://www.youtube.com/watch?v=sRJxOfSO_Lc';
-const REPLY_TEXT = `[Ahí lo tenés al pelotudo](${VIDEO_URL})`;
+const REPLY_TEXT = `[Ahí lo tenés al pelotudo](${VIDEO_URL})!`;
 
 const reddit = new Snoowrap({
   userAgent: `${pkg.name}/${pkg.version}`,
