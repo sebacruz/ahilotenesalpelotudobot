@@ -9,7 +9,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "micro -l tcp://localhost:${PORT:-3000}",
-    "bot": "node bot.js"
+    "bot": "node bot.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -30,7 +32,8 @@
     "pg": "^7.4.3",
     "remove-accents": "^0.4.2",
     "snoostorm": "0.0.5",
-    "snoowrap": "^1.15.2"
+    "snoowrap": "^1.15.2",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "cz-conventional-changelog": "^2.1.0"
@@ -39,5 +42,6 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  }
+  },
+  "snyk": true
 }
