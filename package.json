@@ -27,7 +27,7 @@
   "homepage": "https://github.com/sebacruz/ahilotenesalpelotudobot#readme",
   "dependencies": {
     "micro": "^9.3.2",
-    "pg": "^7.4.3",
+    "pg": "^8.4.0",
     "remove-accents": "^0.4.2",
     "snoostorm": "0.0.5",
     "snoowrap": "^1.15.2"
