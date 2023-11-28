@@ -30,7 +30,7 @@
     "pg": "^7.4.3",
     "remove-accents": "^0.4.2",
     "snoostorm": "0.0.5",
-    "snoowrap": "^1.15.2"
+    "snoowrap": "^1.16.0"
   },
   "devDependencies": {
     "cz-conventional-changelog": "^2.1.0"
